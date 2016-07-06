@@ -5,7 +5,7 @@ const logger = new(winston.Logger)({
     transports: [
         new(winston.transports.File)({
             level: 'debug',
-            filename: './chatCatDebug.log',
+            filename: './gcwDebug.log',
             handleExceptions: true
         }),
         new (winston.transports.Console)({
